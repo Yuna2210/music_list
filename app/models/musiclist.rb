@@ -1,2 +1,0 @@
-class Musiclist < ApplicationRecord
-end

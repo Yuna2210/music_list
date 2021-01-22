@@ -1,0 +1,6 @@
+=bootstrap_form_with model: @song, local: true do |f|
+  =f.text_field :title
+  =f.text_field :singer
+  =f.submit 'register'
+
+=link_to 'back to song lists', songs_path
